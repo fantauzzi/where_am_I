@@ -1,4 +1,4 @@
-image: training_world
+image: training_world.pgm
 resolution: 0.01
 origin: [-15.0, -15.0, 0.0]
 occupied_thresh: 0.65
