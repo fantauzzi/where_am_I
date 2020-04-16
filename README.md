@@ -1,4 +1,4 @@
-# Go Chase It!
+# Where am I?
 **Experiments with localization of a ROS robot simulated in Gazebo, using the AMCL ROS package (Adaptive Monte-Carlo Localization)**
  
 ## Dependencies
@@ -6,7 +6,7 @@ The following needs to be installed:
 - ROS Melodic or Kinetic and the corresponding Gazebo version;
 - cmake 2.8.3 or later and gcc 7.5 or later.
 
-Tested under Ubuntu 18.04 (Melodic) and Ubunt 16.04 (Kinetic).
+Tested under Ubuntu 18.04 (Melodic) and Ubuntu 16.04 (Kinetic).
  
  ## Installation
 Clone the GitHub repository:
@@ -27,7 +27,7 @@ In the root of the cloned repository run:
 source devel/setup.bash
 roslaunch my_robot world.launch 
 ```
-Gazebo and RViz will start, showing the environment, placing a blue robot in it.
+Gazebo and RViz will start, showing the environment and placing a blue robot in it.
   
 In another shell, in the same directory, run:
 ```shell script
