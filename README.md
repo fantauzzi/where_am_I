@@ -43,9 +43,15 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
 The keyboard teleop node will start. The robot is non-holonomic (it has a differential drive). For the keyboard teleoperation to work, make sure you have its window/shell selected before typing.
 
-RViz should start with some useful displays already configured. Its configuration file can also be manually loaded from  `/where_am_I/src/my_robot/config/config.rviz`.
+RViz should start with some useful displays already configured. Its configuration file can also be manually loaded from `/where_am_I/src/my_robot/config/config.rviz`.
 
-![Screenshot](screenshot.png "The robot chasing the ball")
+## Screenshots
+
+![Screenshot](rviz.png "The robot in RViz with its AMCL particle swarm")
+
+![Screenshot](swarm.png "The robot in RViz with its AMCL particle swarm")
+
+![Screenshot](rviz_and_gazebo.png "The robot localized in the labyrinth")
 
 
 ## Credits
