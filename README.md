@@ -47,11 +47,14 @@ RViz should start with some useful displays already configured. Its configuratio
 
 ## Screenshots
 
-![Screenshot](rviz.png "The robot in RViz with its AMCL particle swarm")
+The robot and its particles swarm at the beginning of the simulation. The particles filter was given an initial robot pose estimate, but is still uncertain of the actual robot localization.
+![Screenshot](screenshot1.png "Robot localization at the beginning of the simulation")
 
-![Screenshot](swarm.png "The robot in RViz with its AMCL particle swarm")
+After the robot wheels around some, the particles filter becomes more certain of the robot localization.
+![Screenshot](screenshot2.png "Improved robot localization")
 
-![Screenshot](rviz_and_gazebo.png "The robot localized in the labyrinth")
+The particles filter accurately estimates the robot pose within the maze.
+![Screenshot](screenshot3.png "The robot localized in the labyrinth")
 
 
 ## Credits
